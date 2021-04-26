@@ -1,0 +1,199 @@
+body {
+    color: rgba(94, 94, 94, 0.7);
+    font-family: 'Kiwi Maru', serif;
+    margin: 0;
+  }
+@media (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+  }
+header {
+    background-color: rgba(110, 110, 110, 0.5);
+    background-image: url(https://www.gate309.com/wp-content/uploads/2014/11/new-york-world-hd-wallpaper-1920x1080-9854.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:500px){
+    header{
+        height: 500px;
+        width: 100%;
+    }
+    header h1 {
+        font-size: 40px;
+    } header .button{
+        font-size: 15px;
+    }
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(70, 70, 70, 0.5);
+    height: 500px;
+  }
+header nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu {
+    display: none;
+  }
+  
+#menu div {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+  }
+@media (max-width: 500px) {
+    #link {
+      display: none;
+    }
+   
+    #menu {
+      display: block;
+    }
+  }
+  #link a {
+    margin: 15px;
+  }  
+a{
+    cursor:pointer;
+}
+a.button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color:white;
+}
+#logo{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: white;
+}
+ h2{
+    font-size: 60px;
+    z-index: 0;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px 15px;
+  }
+  @media (max-width: 500px) {
+    section {
+      margin: 40px 10px;
+    }
+  }
+  section h1{
+     font-size: 40px;
+      text-align: center;
+     /* padding-bottom: -90px;*/
+      color:rgb(0, 0, 0);
+  }
+  section p{
+    font-size: 25px;
+     text-align: center;
+    /* padding-bottom: -90px;*/
+     color:rgb(0, 0, 0); 
+ }
+
+ #aeroporto{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-top: 2px solid #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+  }
+  #aeroporto h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 5;
+  }
+
+#meteo{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-top: 2px solid #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+  }
+  #meteo h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 5;
+  }
+
+h1 a{
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+ 
+  
+  @media (max-width: 500px) {
+    #main p {
+      width: 90%;
+    }
+  }
+  #main p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+    width: 60%;
+  }
+#slogan p {
+    font-size: 40px;
+   text-align: center;
+   margin: auto;
+
+   padding-bottom: 60px;
+    width: 60%;
+  }
+#slogan h1 {
+    font-size: 70px;
+   
+    color: rgba(26,26,26,.9);
+  }
+  @media (max-width: 500px) {
+    #slogan h1 {
+        font-size: 40px;
+      }
+      #slogan p{
+        font-size: 25;
+      }
+  }
+footer{
+    background-color: black;
+    color:white;
+    height: 60px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
